@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.quick-fix {
+	width: 100% !important;
+	height: 100%;
+	overflow: hidden;
+}
+
+.header {
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 100%;
+	height: 15%;
+	padding: 2vh 6vh;
+	position: absolute fixed;
+	/* overflow: hidden; */
+}
+
+a {text-decoration: none;}
+
+#full-name {
+	font-size: 2rem;
+	font-weight: bolder;
+	font-family: 'Passion One', Arial, Helvetica, sans-serif;
+	color: rgb(2, 2, 11);
+}
+
+#full-name:hover {
+	text-shadow: 1px 1px 5px rgb(2, 2, 11, 0.50);
+}
+
+#full-name:active {
+	color: rgb(2, 2, 11, 0.65);
+}
+
+.header nav {
+	background: transparent;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 45%;
+}
+
+.header nav a {
+	float: right;
+} 
+
+.logo {
+	width: 30px;
+	height: auto;
+}
+
+#github:hover {
+	box-shadow: 3px 3px 15px rgb(2, 2, 11, 0.65);
+	border-radius: 100%;
+}
+
+#linkedin:hover {
+	box-shadow: 3px 3px 15px rgb(2, 2, 11, 0.65);
+}
+
+#contactme-nav {
+	font-weight: bold;
+	font-size: 1rem;
+	color: rgb(2, 2, 11);
+	font-family: 'Roboto Condensed', sans-serif;
+	align-items: center;
+}
+
+#contactme-nav:hover {
+	text-shadow: 1px 1px 5px rgb(2, 2, 11, 0.50);
+}
+
+#contactme-nav:active {
+	color: rgb(2, 2, 11, 0.65);
+} 
+
+.homepage {
+	background-image: linear-gradient(to right, rgb(2, 2, 11),rgb(2, 2, 11, 0.65));
+	max-width: 100%;
+	height: 200%;
+	/* margin: auto; */
+	padding: 3vh 6vh 6vh;
+	/* overflow: hidden; */
+}
+
+#gif {
+	width: 50%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#giphy {
+	display: block;
+	text-align: center;
+	padding: 2vh;
+	margin: auto;
+    color: whitesmoke;
+    font-size: xx-small;
+}
+
+.homepage-paragraph {
+	text-align: start, justify;
+	color: whitesmoke;
+	font-size: 1.5rem;
+	font-weight: normal;
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 1.2;
+	text-align: justify;
+	padding-top: 2vh;
+}
+
+ .homepage-main {
+	max-width: 100%;
+	padding: 18vh;
+	/* display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	background-color: whitesmoke; */
+}
+
+.button {
+	margin-left: auto;
+	margin-right: 12vh;
+}
+
+.button:hover {
+	box-shadow: 2px 2px 35px rgb(2, 2, 11, 0.65);
+	background-color: rgb(2, 2, 11, 0.65); 
+} 
+
+footer {
+	background:rgb(2, 2, 11);
+	max-width: 100%;
+	height: 5%;
+	padding: 1vh 6vh;
+}
+
+#copyright {
+	color: whitesmoke;
+	font-style: italic;
+	font-weight: lighter;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+}
+
+.h6 {
+	font-size: 0.7rem;
+} 
+
+@media screen and (max-width: 10000px) {
+	.header nav {
+		width: 25%;
+	}		
+	#gif {
+		max-width: 25%;
+	}
+	.homepage-main {
+		max-width: 100%;
+		padding: 6vh;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: row;
+		background-color: whitesmoke;
+	}
+	.button {
+		width: 30vh;
+		height: 30vh;
+		border-radius: 100%;
+		border-color: whitesmoke;
+		border-width: 0rem;
+		background-color: rgb(2, 2, 11);
+		color: whitesmoke;
+		text-align: center;
+		font-size: 1.3rem;
+		font-weight: normal;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.header nav {
+		width: 25%;
+	}
+	.button {
+		max-width: 25vh;
+		height: 25vh;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.header nav {
+		width: 30%;
+	}	
+	.button {
+		max-width: 20vh;
+		height: 20vh;
+	}
+	
+} 
+
+/* BELOW FOR PHONES AND LANDSCAPE TABLETS */
+
+@media screen and (max-width: 600px) {
+	body {
+		max-width: 100%;
+	}
+	#gif {
+		width: 50%;
+	}
+	.header nav {
+		width: 40%;
+	}
+	#full-name {
+		padding-right: 3vh;
+	}
+	.button {
+		width: 50vh;
+		height: 200%;
+		border-radius: 2em;
+		background-color: rgb(2, 2, 11);
+		color: whitesmoke;
+		font-size: 1.3rem;
+		font-weight: normal;
+		font-family: 'Roboto Condensed', sans-serif;
+		margin: 2vh;
+	}
+	.homepage-main {
+		max-width: 100%;
+		padding: 6vh;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: column;
+		background-color: whitesmoke;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.header nav {
+		width: 75%;
+	}
+	#full-name {
+		padding-right: 1vh;
+	}
+	.button {
+		width: 30vh;
+	}
+}
+
+
+
+
+
+

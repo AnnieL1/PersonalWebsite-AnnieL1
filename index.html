@@ -2,56 +2,61 @@
 <html lang="en">
     <head>
         <meta charset = "utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale-1, shrink-to-fit=no"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale-1.0" >
         <title> Annie Liang </title>
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="css-homepage.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Mono&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <header>
+    <section class="quick-fix">
+        <section class="header">
             <a href="index.html">
-         	<p id="full-name"> ANNIE LIANG </p>
+         	<h2 id="full-name"> ANNIE LIANG </h2>
             </a>
          	<nav>
-                <a href="#">
+                <a href="https://github.com/AnnieL1">
                     <img class="logo" id="github" src="github-logo.png" alt="Github logo"/>
                 </a>
                 <a href="https://au.linkedin.com/in/annie-liang">
                     <img class="logo" id="linkedin"src="linkedin-logo.png" alt="Linkedin logo"/>
                 </a>
-            	<a href="Contact-me.html" id="contactme-nav"> contact me </a>
+            	<a href="contact-me.html" id="contactme-nav"> CONTACT ME </a>
         	</nav>
-    	</header>
-        <main>
-            <div class="homepage">
-                <p class="homepage-paragraph"> Hi, I'm currently doing the She Codes bootcamp and working in the business side of technology. 
-                    I'm looking to transition into a software development role upon completion of the bootcamp.</p>
-                    
+        </section>
+        <body>
+        <section class="homepage">
+            <div class="gif-dog">
+                <img id="gif" src="giphy.gif" alt="gif of cartoon pug waving hi">
             </div>
+            <div>
+                <a href="https://giphy.com/gifs/dog-pug-puglie-gDipFXZvaUTbn3HfuC" id="giphy">via and credits to GIPHY</a>
+                <h2 class="homepage-paragraph"> Hi there, I'm currently doing the She Codes Plus bootcamp and working in the business side of technology. Looking to transition into a software development role upon completion.
+                </h2>
+            </div>
+        </section>
                 
-            <div class="homepage-button">
-                <a style="text-decoration: none" href="about-me.html">
-                <button class="button" id="button1">About me</button>
-                </a>
-                <a style="text-decoration: none" href="Portfolio.html">
-                <button class="button" id="button2">Portfolio</button>
-                </a>
-                <a style="text-decoration: none" href="Contact-me.html">
-                <button class="button" id="button3">Contact me</button>
-                </a>
-            </div>
-        </main>
-
+        <section class="homepage-main">
+            <a href="about-me.html">
+            <button class="button" id="button1">ABOUT ME</button>
+            </a>
+            <a href="Portfolio.html">
+            <button class="button" id="button2">PORTFOLIO</button>
+            </a>
+            <a href="contact-me.html">
+            <button class="button" id="button3">CONTACT ME</button>
+            </a>     
+        </section> 
+    </body> 
     <footer>
-        <div class="footer">
-            <h6 class="h6" id="copyright"> ©AnnieLiang 2023. All rights reserved. </h6>
-        </div>
+        <section id="footer-design">
+            <h6 class="h6" id="copyright"> ©AnnieLiang 2022. All rights reserved. </h6>
+        </section>
     </footer>
+    </section>
 
 
     <!-- TO DO: MAKE 3 CIRLCES AND CONTACT ME NAV TURN GREY WHEN HOVERED OVER + MAKE 'ANNIEL' LINK BACK TO HOMEPAGE-->
@@ -73,52 +78,3 @@
                         feel like exercising. Hiking is also great because I'm a massive fan of being in nature 
                         and love the sense of accomplishing a long and difficult hike. 
                     </p> -->
-
-
-
-        <main>
-            <section id="hero">    	
-                <div id="header-text">
-                    <h1 id="emphasis">A movement</h1>
-                    <h1>devoted to helping women to up their tech skills.</h1>
-                    <button type="submit"> Start Learning </button> 
-                </div>
-            </section>
-            <section id="columns">
-                <div id="column-1" class="column">
-                    <img src="icon-1.png" />
-
-                    <h2>1 Day Workshops</h2>
-                    <p>
-                        Whether you're interested in coding as a career, or just
-                        looking to see what it's all about, our free one day
-                        workshops are the perfect starting point.
-                    </p>
-                    <button type="submit">Apply</button>
-                </div>
-                <div id="column-2" class="column">
-                    <img src="icon-2.png" />
-                    
-                    <h2>1 Week Flash</h2>
-                    <p>
-                        Discover the fundamentals of tech in just one week. 
-                        Flash is a one week tester program, teaching you the 
-                        basics of key emerging fields in tech.
-                    </p>
-                    <button type="submit">Apply</button>
-                </div>
-                <div id="column-3" class="column">
-                    <img src="icon-3.png" />
-                    
-                    <h2>6 Month Plus</h2>
-                    <p>
-                        She Codes Plus is a program providing an alternate 
-                        learning pathway within tech. The Plus Program is 
-                        perfect for you if you desire is to enter a career in tech. 
-                    </p>
-                    <button type="submit">Apply</button>
-                </div>
-    	    </section>
-        </main>
-    </body>
-</html>
