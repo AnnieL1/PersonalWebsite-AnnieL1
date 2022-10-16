@@ -9,6 +9,11 @@
 	overflow: hidden;
 }
 
+body {
+	min-height: 95vh;
+}
+
+
 .header {
 	background-color:rgb(2, 2, 11);
     display: flex;
@@ -56,6 +61,8 @@ a {text-decoration: none;}
 .logo {
 	width: 30px;
 	height: auto;
+	margin-right: 2px;
+
 }
 
 #github:hover {
@@ -87,27 +94,10 @@ a {text-decoration: none;}
     min-height: 80%;
 }
 
-/* .intro {
-    max-width: 100%;
-    padding: 6vh;
-    background-color: whitesmoke;
+p {
+	font-size: 1.5rem;
+	font-family: 'Roboto Condensed', sans-serif;
 }
-
-#placeholder {
-    max-width: 20%;
-	border: 3px solid #000;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
-#introduction-paragraph {
-    font-family: 'Roboto Condensed', sans-serif;
-    padding-top: 6vh;
-    margin: auto;
-} */
 
 footer {
 	background:rgb(2, 2, 11);
@@ -147,7 +137,7 @@ footer {
         background-color: whitesmoke;
     }
     
-    #placeholder {
+    #profile-picture {
         max-width: 20%;
         border: 3px solid #000;
         margin: auto;
@@ -173,7 +163,7 @@ footer {
     #introduction-paragraph {
         font-size: 1.4rem;
     }
-    #placeholder {
+    #profile-picture {
         max-width: 35%;
     }
     .intro {
@@ -185,7 +175,7 @@ footer {
 	.header nav {
 		max-width: 30%;
 	}	
-    #placeholder {
+    #profile-picture {
         max-width:40%;
     }
     .intro {
@@ -197,7 +187,7 @@ footer {
         align-items: center;
         flex-direction: column;
     }
-    #placeholder {
+    #profile-picture {
         max-width:40%;
     }
     #introduction-paragraph {
@@ -234,7 +224,7 @@ footer {
 	#full-name {
 		padding-right: 1vh;
 	}
-    #placeholder {
+    #profile-picture {
         max-width: 50%;
     }
 }

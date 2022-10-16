@@ -9,16 +9,20 @@
 	overflow: hidden;
 }
 
+body {
+	min-height: 90vh;
+}
+
 .header {
 	background-color: whitesmoke;
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	max-width: 100%;
 	height: 15%;
 	padding: 2vh 6vh;
 	position: absolute fixed;
-	/* overflow: hidden; */
 }
 
 a {text-decoration: none;}
@@ -28,6 +32,7 @@ a {text-decoration: none;}
 	font-weight: bolder;
 	font-family: 'Passion One', Arial, Helvetica, sans-serif;
 	color: rgb(2, 2, 11);
+	margin-right: 30px;
 }
 
 #full-name:hover {
@@ -45,6 +50,7 @@ a {text-decoration: none;}
 	justify-content: space-between;
 	align-items: center;
 	max-width: 45%;
+	/* padding-left: 25px; */
 }
 
 .header nav a {
@@ -54,6 +60,7 @@ a {text-decoration: none;}
 .logo {
 	width: 30px;
 	height: auto;
+	margin-left: 5px;
 }
 
 #github:hover {
@@ -71,6 +78,8 @@ a {text-decoration: none;}
 	color: rgb(2, 2, 11);
 	font-family: 'Roboto Condensed', sans-serif;
 	align-items: center;
+	margin-left: 5px;
+	margin-right: 6vh;
 }
 
 #contactme-nav:hover {
@@ -91,7 +100,7 @@ a {text-decoration: none;}
 }
 
 #gif {
-	width: 50%;
+	width: 80%;
 	height: auto;
 	display: block;
 	margin-left: auto;
@@ -130,7 +139,7 @@ a {text-decoration: none;}
 
 .button {
 	margin-left: auto;
-	margin-right: 12vh;
+	margin-right: 6vh;
 }
 
 .button:hover {
@@ -162,7 +171,7 @@ footer {
 		width: 25%;
 	}		
 	#gif {
-		max-width: 25%;
+		width: 25%;
 	}
 	.homepage-main {
 		max-width: 100%;
@@ -193,8 +202,8 @@ footer {
 		width: 25%;
 	}
 	.button {
-		max-width: 25vh;
-		height: 25vh;
+		max-width: 22vh;
+		height: 22vh;
 	}
 }
 
@@ -202,11 +211,33 @@ footer {
 	.header nav {
 		width: 30%;
 	}	
+	#gif {
+		width: 35%;
+	}
 	.button {
 		max-width: 20vh;
 		height: 20vh;
 	}
-	
+	.button {
+		width: 50vh;
+		height: 200%;
+		border-radius: 2em;
+		background-color: rgb(2, 2, 11);
+		color: whitesmoke;
+		font-size: 1.3rem;
+		font-weight: normal;
+		font-family: 'Roboto Condensed', sans-serif;
+		margin: 2vh;
+	}
+	.homepage-main {
+		max-width: 100%;
+		padding: 6vh;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: column;
+		background-color: whitesmoke;
+	}
 } 
 
 /* BELOW FOR PHONES AND LANDSCAPE TABLETS */
@@ -218,11 +249,17 @@ footer {
 	#gif {
 		width: 50%;
 	}
+	header {
+		padding-right: 6vh;
+	}
 	.header nav {
-		width: 40%;
+		width: 25%;
+	}
+	#contactme-nav {
+		font-size: 0.8rem;
 	}
 	#full-name {
-		padding-right: 3vh;
+		padding-right: 10vh;
 	}
 	.button {
 		width: 50vh;
@@ -250,6 +287,9 @@ footer {
 	.header nav {
 		width: 75%;
 	}
+	#gif {
+		width: 60%;
+	}
 	#full-name {
 		padding-right: 1vh;
 	}
@@ -257,9 +297,3 @@ footer {
 		width: 30vh;
 	}
 }
-
-
-
-
-
-

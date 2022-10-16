@@ -3,6 +3,13 @@
 	padding: 0;
 }
 
+.quick-fix {
+	MAX-width: 100% !important;
+	min-height: 90vh;
+	height: 100%;
+	overflow: hidden;
+}
+
 .header {
 	background-color: rgb(2, 2, 11);
 	display: flex;
@@ -96,20 +103,22 @@ h3 {
     background-color: whitesmoke;
 }
 
-.form-design input {
-    width: 70%;
-    height: 3vh;
-    border-radius: 0.3em;
-}
-
-.form-message input {
+.form-design input, 
+.form-message textarea {
     width: 70%;
     height: 37vh;
     border-radius: 0.3em;
-    align: top;
-    text-align:TOP ;
+    align-content: top;
+	width: 70%;
+	height: 3vh;
+	border-width: 1.5px;
+	border-color: rgb(2, 2, 11);
+	color: rgb(2, 2, 11);
 }
 
+.form-message textarea {
+    height: 35vh;
+}
 
 #button {
     border: 1rem;

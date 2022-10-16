@@ -4,7 +4,8 @@
 }
 
 .quick-fix {
-	width: 100% !important;
+	MAX-width: 100% !important;
+	min-height: 90vh;
 	height: 100%;
 	overflow: hidden;
 }
@@ -118,7 +119,6 @@ a {text-decoration: none;}
     justify-content: center;
     margin: auto;
 }
-
 
 footer {
 	background:rgb(2, 2, 11);
