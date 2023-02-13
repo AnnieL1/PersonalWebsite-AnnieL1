@@ -23,8 +23,8 @@ Link: https://anniel1.github.io/AnnieL1/index.html
         - styled contact form
         - Send button
 
-## Submission criteria ##
-    Your task is to create a portfolio site to showcase your work. Creators often have some kind of portfolio to show off what they can do, as developers, we are no exception. Your portfolio site should represent you, so while we have listed the requirements for it below, it should still have your own personal style all over it.
+## Project Submission ##
+    Overview: Your task is to create a portfolio site to showcase your work. Creators often have some kind of portfolio to show off what they can do, as developers, we are no exception. Your portfolio site should represent you, so while we have listed the requirements for it below, it should still have your own personal style all over it.
     
     Webpage requirements:
         1. Include at least one profile picture.
