@@ -5,7 +5,7 @@ This project is my personal website, created with HTML and CSS as part of my fir
 Link: https://anniel1.github.io/AnnieL1/index.html
 
 
-## Features: ##
+## Features ##
     1. Homepage. Showcases:
         - header with links to other pages on the website, socials and contact form
         - gif and credit
