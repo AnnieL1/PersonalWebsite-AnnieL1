@@ -2,7 +2,7 @@
 
 This project is my personal website, created with HTML and CSS as part of my first She Codes bootcamp project.
 
-Link: https://anniel1.github.io/AnnieL1/index.html
+Link: https://anniel1.github.io/PersonalWebsite-AnnieL1/index.html
 
 
 ## Features ##
