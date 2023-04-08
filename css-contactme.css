@@ -114,10 +114,11 @@ h3 {
 	border-width: 1.5px;
 	border-color: rgb(2, 2, 11);
 	color: rgb(2, 2, 11);
+	padding: 1.5vh;
 }
 
 .form-message textarea {
-    height: 35vh;
+    height: 29vh;
 }
 
 #button {
@@ -136,7 +137,7 @@ h3 {
 	background-color: rgb(2, 2, 11, 0.65); 
 } 
 
-footer {
+/* footer {
 	background:rgb(2, 2, 11);
 	display: flex;
 	max-width: 100%;
@@ -146,7 +147,17 @@ footer {
 	align-items: center;
 	text-align: center;
     bottom: 0;
-}
+} */
+
+footer {
+	position: fixed;
+	left: -10;
+	bottom: 0;
+	width: 100%;
+	background:rgb(2, 2, 11);
+	color: whitesmoke;
+	padding: 1vh 6vh;
+ }
 
 #footer-design {
 	margin: auto;
@@ -157,11 +168,16 @@ footer {
 	font-style: italic;
 	font-weight: lighter;
 	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
 }
 
 .h6 {
-	font-size: 0.9rem;
+	font-size: 0.7rem;
 } 
+
+/* #namebox {
+	padding: 10rem;
+} */
 
 @media screen and (max-width: 10000px) {
 	.header nav {
@@ -193,6 +209,12 @@ footer {
 	#full-name {
 		padding-right: 3vh;
 	}
+	.form-message textarea {
+		height: 27vh;
+	}
+	.form-design input {
+		height: 1vh;
+	}
 }
 
 @media screen and (max-width: 400px) {
@@ -202,5 +224,10 @@ footer {
 	#full-name {
 		padding-right: 1vh;
 	}
+	#copyright {
+		text-align: left;
+	}
 }
+
+
 

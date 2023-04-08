@@ -99,7 +99,7 @@ p {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-footer {
+/* footer {
 	background:rgb(2, 2, 11);
 	display: flex;
 	max-width: 100%;
@@ -108,17 +108,24 @@ footer {
 	position: absolute fixed;
 	align-items: center;
     bottom: 0;
-}
+} */
 
-#footer-design {
-	margin: auto;
-}
+footer {
+	position: fixed;
+	/* left: -10; */
+	bottom: 0;
+	width: 100%;
+	background:rgb(2, 2, 11);
+	color: whitesmoke;
+	padding: 1vh 6vh;
+ }
 
 #copyright {
 	color: whitesmoke;
 	font-style: italic;
 	font-weight: lighter;
 	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
 }
 
 .h6 {
@@ -133,7 +140,11 @@ footer {
     .intro {
         display: flex;
         max-width: 100%;
-        padding: 6vh;
+		min-height: 80vh;
+		padding-top: 0vh;
+        padding-bottom: 10vh;
+		padding-right: 10vh;
+		padding-left: 10vh;
         background-color: whitesmoke;
     }
     
@@ -152,7 +163,8 @@ footer {
         padding-left: 8vh;
         display: flex;
         justify-content: center;
-        align-items: center
+        align-items: center;
+		text-align: justify;
     }
 }
 
@@ -162,12 +174,18 @@ footer {
 	}
     #introduction-paragraph {
         font-size: 1.4rem;
+		justify-content: center;
+		text-align: justify;
     }
     #profile-picture {
         max-width: 35%;
     }
     .intro {
         min-height: 80%;
+		padding-top: 6vh;
+        padding-bottom: 10vh;
+		padding-right: 10vh;
+		padding-left: 10vh;
     }
 }
 
@@ -180,24 +198,27 @@ footer {
     }
     .intro {
         max-width: 100%;
-        /* padding: 6vh; */
+		max-height: 100%;
+        padding: 6vh;
         background-color: whitesmoke;
         display: block;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
     #profile-picture {
-        max-width:40%;
+        max-width:80%;
     }
     #introduction-paragraph {
         font-family: 'Roboto Condensed', sans-serif;
         padding-top: 4vh;
         padding-left: 0vh;
+		font-size: 1.3rem;
     }
-    #introduction-paragraph {
-        font-size: 1.3rem;
-    }
+    /* #introduction-paragraph {
+       
+    } */
 } 
 
 /* BELOW FOR PHONES AND LANDSCAPE TABLETS */
@@ -214,7 +235,9 @@ footer {
 	}
     #introduction-paragraph {
         font-size: 1rem;
+		text-align: justify;
     }
+	
 }   
 
 @media screen and (max-width: 400px) {
@@ -227,5 +250,8 @@ footer {
     #profile-picture {
         max-width: 50%;
     }
+	#copyright {
+		text-align: left;
+	}
 }
 
