@@ -85,66 +85,89 @@ a {text-decoration: none;}
 } 
 
 .main {
-    max-width: 100%;
-    padding: 3vh 6vh;
+    width: 100vw;
+	height: auto;
+    padding-left: 1rem;
     background-color: whitesmoke;
 }
 
-#coming-soon {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 2rem;
+#project-description {
+	font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.4rem;
     font-weight: bolder;
     line-height: 1.2;
     text-align: center;
     color: rgb(2, 2, 11);
-    display: block;
-    justify-content: center;
-    padding-bottom: 4vh;
+    /* display: block;
+    justify-content: center; */
+    padding: 8vh;
+	padding-bottom: 3vh;
 }
 
-#squirrel {
-    width: 25%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+.placeholder {
+	margin: 2rem;
+	width: 25%;
+	height: 25vh;
+	border: 3px solid #000; 
+} 
+
+#project-cards {
+	margin-right: 3rem;	
 }
 
-#giphy {
-    padding-top: 2vh;
-    margin: auto;
-    color: rgb(2, 2, 11);
-    font-size: xx-small;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+#first-project {
+	display: flex;
+	align-items: center;
+	margin: 10px;
 }
+
+#second-project {
+	display: flex;
+	align-items: center;
+}
+
+#third-project {
+	display: flex;
+	align-items: center;
+} 
+
+#fourth-project {
+	display: flex;
+	align-items: center;
+} 
+
+#fifth-project {
+	display: flex;
+	align-items: center;
+	padding-bottom: 4rem;
+} 
+
 
 footer {
+	position: fixed;
+	/* left: -10; */
+	bottom: 0;
+	width: 100%;
 	background:rgb(2, 2, 11);
-	display: flex;
-	max-width: 100%;
-	height: 5%;
+	color: whitesmoke;
 	padding: 1vh 6vh;
-	position: absolute fixed;
-	align-items: center;
-    bottom: 0;
-}
-
-#footer-design {
-	margin: auto;
-}
+ }
 
 #copyright {
 	color: whitesmoke;
 	font-style: italic;
 	font-weight: lighter;
 	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
 }
 
 .h6 {
-	font-size: 0.9rem;
+	font-size: 0.7rem;
 } 
+
+b {
+	font-size: larger;
+}
 
 
 @media screen and (max-width: 10000px) {
@@ -157,9 +180,9 @@ footer {
 	.header nav {
 		width: 25%;
 	}
-    #squirrel {
+    /* #squirrel {
         width: 35%;
-    }
+    } */
 }
 
 @media screen and (max-width: 800px) {
@@ -180,9 +203,9 @@ footer {
 	#full-name {
 		padding-right: 3vh;
 	}
-    #squirrel {
+    /* #squirrel {
         width: 100%;
-    }
+    } */
 }
 
 @media screen and (max-width: 400px) {
@@ -192,5 +215,45 @@ footer {
 	#full-name {
 		padding-right: 1vh;
 	}
+	#copyright {
+		text-align: left;
+	}
+
+	#first-project {
+		display: inline-block;
+		padding-bottom: 3rem;
+	}
+	
+	#second-project {
+		display: inline-block;
+		padding-bottom: 3rem;
+	}
+	
+	#third-project {
+		display: inline-block;
+		padding-bottom: 3rem;
+	} 
+	
+	#fourth-project {
+		display: inline-block;
+		padding-bottom: 3rem;
+	} 
+	
+	#fifth-project {
+		display: inline-block;
+		padding-bottom: 3rem;
+	}
+	
+	.placeholder {
+		width: 70vw;
+		height: 25vh;
+		border: 3px solid #000; 
+		display: block;
+		justify-content: flex-start;
+		align-items: flex-start;
+	} 
+	/* .main {
+		margin: right 10rem;
+	} */
 }
 

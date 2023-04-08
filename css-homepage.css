@@ -100,7 +100,7 @@ a {text-decoration: none;}
 }
 
 #gif {
-	width: 80%;
+	width: 20vw;
 	height: auto;
 	display: block;
 	margin-left: auto;
@@ -111,9 +111,9 @@ a {text-decoration: none;}
 	display: block;
 	text-align: center;
 	padding: 2vh;
-	margin: auto;
     color: whitesmoke;
     font-size: xx-small;
+	padding-left: 2.2rem;
 }
 
 .homepage-paragraph {
@@ -153,6 +153,7 @@ footer {
 	height: 5%;
 	padding: 1vh 6vh;
 }
+
 
 #copyright {
 	color: whitesmoke;
@@ -295,5 +296,8 @@ footer {
 	}
 	.button {
 		width: 30vh;
+	}
+	#copyright {
+		text-align: left;
 	}
 }
