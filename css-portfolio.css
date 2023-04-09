@@ -113,12 +113,26 @@ a {text-decoration: none;}
 
 #project-cards {
 	margin-right: 3rem;	
+	font-size: 1.1rem;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #first-project {
 	display: flex;
 	align-items: center;
 	margin: 10px;
+}
+
+
+p {
+	padding-left: 5rem;
+	padding-right: 5rem;
+	text-align: justify;
+}
+
+b {
+	width: 20rem;
 }
 
 #second-project {
